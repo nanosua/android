@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2270AE"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bộ công cụ"
+        android:gravity="center"
+        android:textColor="@color/white"
+         />
+        <Button
+            android:id="@+id/btnChangeTemp"
+           android:layout_marginTop="40dp"
+            android:text="Đổi nhiệt độ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnLunarYear"
+        android:layout_marginTop="40dp"
+        android:text="Năm âm lịch "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnIbm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:text="BMI"
+        android:textColor="#fff" />
+
+</LinearLayout>

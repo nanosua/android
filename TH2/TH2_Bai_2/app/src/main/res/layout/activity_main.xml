@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    android:shrinkColumns="0,1"
+    tools:context=".MainActivity">
+   <TableRow
+       android:background="#7E2323"
+       >
+
+       <TextView
+           android:layout_height="33dp"
+           android:layout_span="2"
+           android:gravity="center"
+           android:text="THÔNG TIN BỔ SUNG"
+           android:textStyle="bold" />
+   </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Họ tên" />
+        <EditText
+            android:id="@+id/edtHoTen"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên" />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:text="CMND"/>
+
+        <EditText
+            android:id="@+id/edtCMND"
+           android:layout_width="wrap_content"
+            android:hint="Nhập CMND" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:background="#7E2323"
+        >
+        <TextView
+            android:layout_height="33dp"
+            android:text="BẰNG CẤP"
+            android:layout_span="2"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow>
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/rdgTrinhDo"
+            >
+            <RadioButton
+                android:id="@+id/rdTrungCap"
+                android:text="Trung cấp "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rdDaiHoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Đại học " />
+
+            <RadioButton
+                android:id="@+id/rdCaoDang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Cao đẳng" />
+        </RadioGroup>
+
+
+    </TableRow>
+    <TableRow
+        android:background="#7E2323"
+        >
+        <TextView
+            android:layout_height="33dp"
+            android:text="SỞ THÍCH"
+            android:layout_span="3"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow>
+
+        <RadioGroup
+            android:id="@+id/rdgSoThich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdDocBao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đọc báo " />
+
+            <RadioButton
+                android:id="@+id/rdDocSach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Đọc sách " />
+
+            <RadioButton
+                android:id="@+id/rdDocCoding"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Đọc coding" />
+        </RadioGroup>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="_______________________________________________"
+            android:layout_span="2"/>
+
+    </TableRow>
+        <Button
+            android:id="@+id/btnGuiDi"
+            android:text="Gửi đi"
+            />
+    <TableRow>
+
+    </TableRow>
+</TableLayout>
