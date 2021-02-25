@@ -1,0 +1,6 @@
+com/example/th4_lifecycle/BuildConfig.java
+ com.example.th4_lifecycle.BuildConfig
+com/example/th4_lifecycle/MainActivity.java
+ com.example.th4_lifecycle.MainActivity
+ com.example.th4_lifecycle.MainActivity$1
+ com.example.th4_lifecycle.MainActivity$2

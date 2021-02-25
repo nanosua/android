@@ -1,0 +1,4 @@
+#Wed Feb 24 11:33:41 ICT 2021
+base.0=C\:\\Users\\Do Thi Thanh Mui\\AndroidStudioProjects\\TH5_ActivityLifeCycle\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

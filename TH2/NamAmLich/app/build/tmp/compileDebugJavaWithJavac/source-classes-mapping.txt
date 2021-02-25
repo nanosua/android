@@ -1,0 +1,7 @@
+com/example/namamlich/BuildConfig.java
+ com.example.namamlich.BuildConfig
+com/example/namamlich/MainActivity.java
+ com.example.namamlich.MainActivity
+ com.example.namamlich.MainActivity$1
+com/example/namamlich/AmLich.java
+ com.example.namamlich.AmLich
