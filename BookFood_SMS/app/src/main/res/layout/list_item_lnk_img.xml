@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="8"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#347998"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:background="#fff"
+            android:id="@+id/imgFoodImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+        <TextView
+            android:textColor="#911E1E"
+            android:background="#46164E"
+            android:text="Giới thiệu"
+            android:textSize="24sp"
+            android:id="@+id/txtFoodLink"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#813737"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="#FFEB3B"
+            android:id="@+id/txtFoodName"
+            android:layout_height="62dp"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:background="#009688"
+            android:text="Vị trí "
+            android:textColor="#A42424"
+            android:textSize="24sp"
+            android:id="@+id/txtFoodLocation"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+             />
+    </LinearLayout>
+
+</LinearLayout>
